@@ -8,24 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		60EB584B1D66FC14008242D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB584A1D66FC14008242D0 /* main.m */; };
-		60EB584E1D66FC14008242D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB584D1D66FC14008242D0 /* AppDelegate.m */; };
-		60EB58511D66FC14008242D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB58501D66FC14008242D0 /* ViewController.m */; };
-		60EB58541D66FC14008242D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EB58521D66FC14008242D0 /* Main.storyboard */; };
 		60EB58561D66FC14008242D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EB58551D66FC14008242D0 /* Assets.xcassets */; };
 		60EB58591D66FC15008242D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EB58571D66FC15008242D0 /* LaunchScreen.storyboard */; };
+		60EB58661D66FDB4008242D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB58611D66FDB4008242D0 /* AppDelegate.m */; };
+		60EB58671D66FDB4008242D0 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB58631D66FDB4008242D0 /* BootLogic.m */; };
+		60EB58681D66FDB4008242D0 /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB58651D66FDB4008242D0 /* ConsoleScreen.m */; };
+		60EB586B1D66FDD8008242D0 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB586A1D66FDD8008242D0 /* MainScreen.m */; };
+		60EB586D1D66FFF0008242D0 /* Barcelona.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60EB586C1D66FFF0008242D0 /* Barcelona.plist */; };
+		60EB58731D6700CC008242D0 /* NSArray+ExtendNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB58721D6700CC008242D0 /* NSArray+ExtendNSArray.m */; };
+		60EB58761D670EF7008242D0 /* TeamChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB58751D670EF7008242D0 /* TeamChooser.m */; };
+		60EB58791D670F39008242D0 /* ArrayDistinct.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EB58781D670F39008242D0 /* ArrayDistinct.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60EB58461D66FC14008242D0 /* iArrayFootball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iArrayFootball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EB584A1D66FC14008242D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		60EB584C1D66FC14008242D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		60EB584D1D66FC14008242D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		60EB584F1D66FC14008242D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		60EB58501D66FC14008242D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		60EB58531D66FC14008242D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60EB58551D66FC14008242D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60EB58581D66FC15008242D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60EB585A1D66FC15008242D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EB58601D66FDB4008242D0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60EB58611D66FDB4008242D0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60EB58621D66FDB4008242D0 /* BootLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootLogic.h; sourceTree = "<group>"; };
+		60EB58631D66FDB4008242D0 /* BootLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootLogic.m; sourceTree = "<group>"; };
+		60EB58641D66FDB4008242D0 /* ConsoleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleScreen.h; sourceTree = "<group>"; };
+		60EB58651D66FDB4008242D0 /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleScreen.m; sourceTree = "<group>"; };
+		60EB58691D66FDD8008242D0 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		60EB586A1D66FDD8008242D0 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		60EB586C1D66FFF0008242D0 /* Barcelona.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Barcelona.plist; sourceTree = "<group>"; };
+		60EB58711D6700CC008242D0 /* NSArray+ExtendNSArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ExtendNSArray.h"; sourceTree = "<group>"; };
+		60EB58721D6700CC008242D0 /* NSArray+ExtendNSArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ExtendNSArray.m"; sourceTree = "<group>"; };
+		60EB58741D670EF7008242D0 /* TeamChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamChooser.h; sourceTree = "<group>"; };
+		60EB58751D670EF7008242D0 /* TeamChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamChooser.m; sourceTree = "<group>"; };
+		60EB58771D670F39008242D0 /* ArrayDistinct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDistinct.h; sourceTree = "<group>"; };
+		60EB58781D670F39008242D0 /* ArrayDistinct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDistinct.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +73,25 @@
 		60EB58481D66FC14008242D0 /* iArrayFootball */ = {
 			isa = PBXGroup;
 			children = (
-				60EB584C1D66FC14008242D0 /* AppDelegate.h */,
-				60EB584D1D66FC14008242D0 /* AppDelegate.m */,
-				60EB584F1D66FC14008242D0 /* ViewController.h */,
-				60EB58501D66FC14008242D0 /* ViewController.m */,
-				60EB58521D66FC14008242D0 /* Main.storyboard */,
+				60EB58711D6700CC008242D0 /* NSArray+ExtendNSArray.h */,
+				60EB58721D6700CC008242D0 /* NSArray+ExtendNSArray.m */,
+				60EB58771D670F39008242D0 /* ArrayDistinct.h */,
+				60EB58781D670F39008242D0 /* ArrayDistinct.m */,
+				60EB58741D670EF7008242D0 /* TeamChooser.h */,
+				60EB58751D670EF7008242D0 /* TeamChooser.m */,
+				60EB58691D66FDD8008242D0 /* MainScreen.h */,
+				60EB586A1D66FDD8008242D0 /* MainScreen.m */,
+				60EB58601D66FDB4008242D0 /* AppDelegate.h */,
+				60EB58611D66FDB4008242D0 /* AppDelegate.m */,
+				60EB58621D66FDB4008242D0 /* BootLogic.h */,
+				60EB58631D66FDB4008242D0 /* BootLogic.m */,
+				60EB58641D66FDB4008242D0 /* ConsoleScreen.h */,
+				60EB58651D66FDB4008242D0 /* ConsoleScreen.m */,
 				60EB58551D66FC14008242D0 /* Assets.xcassets */,
 				60EB58571D66FC15008242D0 /* LaunchScreen.storyboard */,
 				60EB585A1D66FC15008242D0 /* Info.plist */,
 				60EB58491D66FC14008242D0 /* Supporting Files */,
+				60EB586C1D66FFF0008242D0 /* Barcelona.plist */,
 			);
 			path = iArrayFootball;
 			sourceTree = "<group>";
@@ -137,8 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				60EB58591D66FC15008242D0 /* LaunchScreen.storyboard in Resources */,
+				60EB586D1D66FFF0008242D0 /* Barcelona.plist in Resources */,
 				60EB58561D66FC14008242D0 /* Assets.xcassets in Resources */,
-				60EB58541D66FC14008242D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60EB58511D66FC14008242D0 /* ViewController.m in Sources */,
-				60EB584E1D66FC14008242D0 /* AppDelegate.m in Sources */,
+				60EB58671D66FDB4008242D0 /* BootLogic.m in Sources */,
+				60EB586B1D66FDD8008242D0 /* MainScreen.m in Sources */,
+				60EB58681D66FDB4008242D0 /* ConsoleScreen.m in Sources */,
+				60EB58791D670F39008242D0 /* ArrayDistinct.m in Sources */,
+				60EB58731D6700CC008242D0 /* NSArray+ExtendNSArray.m in Sources */,
+				60EB58761D670EF7008242D0 /* TeamChooser.m in Sources */,
+				60EB58661D66FDB4008242D0 /* AppDelegate.m in Sources */,
 				60EB584B1D66FC14008242D0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +188,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		60EB58521D66FC14008242D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60EB58531D66FC14008242D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		60EB58571D66FC15008242D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

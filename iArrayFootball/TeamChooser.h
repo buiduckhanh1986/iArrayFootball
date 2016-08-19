@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TeamChooser.h
 //  iArrayFootball
 //
 //  Created by Bui Duc Khanh on 8/19/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TeamChooser : UIViewController
 
 @end
-
